@@ -1,0 +1,30 @@
+body {
+    width: 600px;
+    height: 350px;
+    background-color: #efefef;
+    font-family: "Roboto";
+}
+
+.button {
+    width: 100%;
+    height: 50px;
+    background-color: lightgrey;
+    border: none;
+    font-size: large;
+}
+.button:hover {
+    background-color: darkgrey;
+}
+
+.btn {
+    background-color: #ffdf8e;
+    border: none;
+    width: 125px;
+    height: 30px;
+    color: #443100;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-color: #ffc228;
+}

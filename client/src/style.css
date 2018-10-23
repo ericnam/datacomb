@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+
+#navbar {
+    /* height: 25px; */
+    background-color: lightgrey;
+    color: grey;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+#navbar #navbar-buttons {
+    float: right;
+}
+#navbar #navbar-buttons i:hover {
+    color: yellow;
+    cursor: pointer;
+}

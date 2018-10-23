@@ -1,0 +1,17 @@
+{
+    "name": "DataComb",
+    "version": "1.0",
+    "description": "Web scraper that exports data on webpage to Google suite.",
+    "permissions": ["declarativeContent", "storage", "pageCapture", "tabs", "activeTab"],
+    "background": {
+      "scripts": ["server.js"],
+      "persistent": false
+    },
+    "page_action": {
+        "default_popup": "./ext/index.html"
+    },
+    "web_accessible_resources": [
+      "client/index.html"
+    ],
+    "manifest_version": 2
+  }
