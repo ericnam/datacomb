@@ -1,19 +1,93 @@
 body {
     margin: 0;
+    background-color: white;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+     -khtml-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none; 
+}
+button {
+    background-color: #ffdf8e;
+    border: none;
+    width: 125px;
+    height: 30px;
+    color: #443100;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+button:hover {
+    background-color: #ffc228;
 }
 
 #navbar {
-    /* height: 25px; */
     background-color: lightgrey;
     color: grey;
     font-size: 18px;
     padding: 5px 10px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
 }
-
 #navbar #navbar-buttons {
     float: right;
 }
 #navbar #navbar-buttons i:hover {
     color: yellow;
     cursor: pointer;
+}
+
+
+#progress-bar {
+    margin: 10px 0 0 0;
+}
+#progress-bar span {
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    height: 76px;
+    width: 76px;
+    border-radius: 50px;
+    background-color: lightgrey;
+    color: darkslategrey;
+}
+#progress-bar .first {
+    margin: 20px 0 20px 20px;
+}
+#progress-bar .last {
+    margin: 20px 20px 20px 0px;
+}
+#progress-bar .mid {
+    margin: 20px 0;
+}
+#progress-bar hr {
+    float: left;
+    width: 27px;
+    margin: 55px 5px 0;
+    border: 1px solid grey;
+}
+#progress-bar p {
+    padding: 0;
+    margin: 0px;
+}
+#progress-bar i {
+    margin: 20px 0 0 0;
+}
+
+#content {
+    float: left;
+    width: 100%;
+}
+#content h1 {
+    background-color: #ffdf8e;
+    color: #443100;
+    padding: 0 20px;
+}
+#content p {
+    margin: 0;
+}
+#content #container {
+    margin: 0 20px;
+    float: left;
 }

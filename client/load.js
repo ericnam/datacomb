@@ -7,7 +7,7 @@ function initialize () {
  `
    #datacomb-container {
      font-family: Roboto;
-     width: 450px;
+     width: 464px;
      height: 100vh;
      position: absolute;
      background-color: white;
